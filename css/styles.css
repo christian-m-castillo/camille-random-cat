@@ -11,7 +11,7 @@ body {
 
 .container {
 max-width: 500px;
-margin: 7vh auto;
+margin: 7vmin auto;
 text-align: center;
 padding: 30px;
 background: linear-gradient(rgb(134, 89, 44), rgb(195, 144, 92)) ;
@@ -51,4 +51,5 @@ button {
   font-size: 1.2rem;
   border-radius: 10px;
   box-shadow: 3px 3px 7px #000;
+  color: #000;
 }
