@@ -1,18 +1,29 @@
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #333;
-  color: pink;
+  background: linear-gradient(rgb(133, 189, 199), rgb(83, 140, 150)) ;
+  color: #fff;
+  height: 100%;
+  width: 100%;
 }
 
 .container {
-max-width: 400px;
-margin: 0 auto;
+max-width: 500px;
+margin: 7vh auto;
 text-align: center;
-padding: 20px;
+padding: 30px;
+background: linear-gradient(rgb(134, 89, 44), rgb(195, 144, 92)) ;
 } 
 
 h1 {
   margin-top: -15px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.4rem;
 }
 
 #catPhoto {
@@ -22,15 +33,16 @@ h1 {
 #catPhoto img {
   max-width: 100%;
   max-height: 400px;
-  border-radius: 10px;
 }
 
 button {
   background-color:pink;
   border: none;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  border-radius: 10px;
-  padding: 10px;
+  padding: 10px 20px;
   margin-top: 18px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
 }
